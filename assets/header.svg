@@ -1,0 +1,15 @@
+<svg width="1200" height="280" viewBox="0 0 1200 280" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="280" gradientUnits="userSpaceOnUse"><stop stop-color="#101A31"/><stop offset="0.55" stop-color="#132D47"/><stop offset="1" stop-color="#0C6B77"/></linearGradient>
+    <linearGradient id="line" x1="102" y1="227" x2="1070" y2="34" gradientUnits="userSpaceOnUse"><stop stop-color="#6DE6D4" stop-opacity=".75"/><stop offset="1" stop-color="#D0F8AD" stop-opacity=".15"/></linearGradient>
+  </defs>
+  <rect width="1200" height="280" rx="22" fill="url(#bg)"/>
+  <circle cx="1052" cy="-20" r="185" stroke="#FFFFFF" stroke-opacity=".08" stroke-width="1"/>
+  <circle cx="1052" cy="-20" r="145" stroke="#FFFFFF" stroke-opacity=".08" stroke-width="1"/>
+  <circle cx="1052" cy="-20" r="105" stroke="#FFFFFF" stroke-opacity=".08" stroke-width="1"/>
+  <path d="M70 225C220 184 307 244 455 181C620 110 668 202 820 131C939 76 1072 134 1168 55" stroke="url(#line)" stroke-width="2"/>
+  <circle cx="455" cy="181" r="5" fill="#75E5D1"/><circle cx="820" cy="131" r="5" fill="#75E5D1"/>
+  <text x="80" y="115" fill="#F4FBFF" font-family="Arial, Helvetica, sans-serif" font-size="54" font-weight="700">Bardia Malackzadeh</text>
+  <text x="83" y="158" fill="#B9D7E6" font-family="Arial, Helvetica, sans-serif" font-size="22">Computing Science · Vancouver, BC</text>
+  <text x="83" y="199" fill="#82E7D5" font-family="Arial, Helvetica, sans-serif" font-size="17" letter-spacing="2">BUILDING USEFUL SYSTEMS</text>
+</svg>
