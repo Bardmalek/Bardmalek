@@ -1,5 +1,0 @@
-<svg width="1200" height="14" viewBox="0 0 1200 14" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
-  <defs><linearGradient id="d" x1="0" y1="0" x2="1200" y2="0" gradientUnits="userSpaceOnUse"><stop stop-color="#75E5D1" stop-opacity="0"/><stop offset=".5" stop-color="#75E5D1" stop-opacity=".7"/><stop offset="1" stop-color="#75E5D1" stop-opacity="0"/></linearGradient></defs>
-  <path d="M0 7 H1200" stroke="url(#d)"/>
-  <circle r="4" cy="7" fill="#75E5D1"><animate attributeName="cx" values="100;1100;100" dur="7s" repeatCount="indefinite"/></circle>
-</svg>
