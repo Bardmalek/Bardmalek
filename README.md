@@ -15,35 +15,19 @@ I study Computing Science at **Simon Fraser University** and build software arou
 | :--- | :--- |
 | **[Tiregan 2026 / TCICS](https://github.com/Bardmalek/TCICS)** | A **deployed** vendor booking platform: interactive floor plan, server-verified PayPal payments, TypeScript Edge Functions on PostgreSQL, and organizer operations. [Visit the site ↗](https://tcicsbooking.com) |
 | **[CarWatch](https://github.com/Bardmalek/carwatch)** | Real-time vehicle tracking and driving-pattern analysis: YOLO26 + BoT-SORT, camera-motion stabilization, speed and acceleration with error bars, a behaviour model evaluated on real tracks, and a live local dashboard. 39 tests, CI, and published results, including the ones that didn’t work. |
-| **[VenueMap](https://github.com/Bardmalek/venuemap)** | Event and booth discovery interfaces, map editing, and vendor and organizer workspaces. [Live preview ↗](https://venuemap-gamma.vercel.app) |
 | **[X-Plane Emergency Assistant](https://github.com/Bardmalek/xplane-emergency-assistant)** | Typed telemetry, a rule-based emergency decision engine behind a swappable interface, and a simulator that runs without X-Plane. 18 unit tests, CI on Python 3.10 and 3.12. |
 | **[Sensory Substitution Kit](https://github.com/Bardmalek/sensory-substitution-kit)** | An ESP32 sound-to-touch firmware prototype (FFT, four frequency bands, vibration motors) with a React Native companion app. |
 
-### Featured: CarWatch
+### Featured: Tiregan 2026 / TCICS
 
-<table>
-<tr>
-<td width="55%" valign="top">
+**Tiregan 2026** was the festival vendor-booking platform I built and operated for the Tri-City Iranian Cultural Society at **Lafarge Lake Park, Coquitlam**. The festival drew **30,000+ attendees**; vendor booth reservations and online payments ran through this system.
 
-Most “AI traffic” demos stop at drawing boxes. CarWatch tries to be **measurable and honest**:
+- **The real venue, bookable.** An interactive floor plan with 89 public booth spaces, so vendors pick the actual location, with live availability and checkout holds.
+- **Payments the server verifies.** Prices come from a server-side catalog, PayPal orders are captured and checked for amount and currency, and webhook signatures are verified before any booking changes state.
+- **Built for the organizer too.** A dashboard with search, CSV export, receipt retries and email alerts, backed by database audit trails.
+- **Stack.** TypeScript Edge Functions (Deno) on Supabase PostgreSQL with Realtime, PayPal and Mailgun.
 
-- **Error bars on every number.** A quadratic fit gives speed and acceleration, and its covariance gives a 1σ error.
-- **Tested on real tracks.** Hand-set thresholds false-alarmed on 54% of normal real windows; a model trained on real tracks with injected events cut that to about 12%. The README says exactly what that does and doesn’t prove.
-- **Negative results kept.** Sliced inference raised recall but hurt F1 and ran about 15× slower, so it isn’t wired in.
-- **Private by default.** No face or plate recognition, and everything stays on `127.0.0.1`.
-
-[Read the write-up →](https://github.com/Bardmalek/carwatch)
-
-</td>
-<td width="45%">
-
-<img src="https://raw.githubusercontent.com/Bardmalek/carwatch/main/docs/dashboard.png" alt="CarWatch live dashboard (synthetic demo data)">
-
-<sub>Dashboard shown with synthetic data.</sub>
-
-</td>
-</tr>
-</table>
+[Read the case study →](https://github.com/Bardmalek/TCICS) · [Event site ↗](https://tcicsbooking.com)
 
 ### Things I work with
 
