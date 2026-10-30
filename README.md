@@ -2,7 +2,6 @@
 
 CS @ **Simon Fraser University** · Vancouver
 
-Backend systems & quantitative finance.
 
 ---
 
