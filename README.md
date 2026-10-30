@@ -1,3 +1,12 @@
-CS @ SFU
+## Bardia Malackzadeh
 
-**[Tiregan 2026](https://github.com/Bardmalek/TCICS)**: the vendor booking platform I built for a 30,000+ attendee festival. [tcicsbooking.com](https://tcicsbooking.com)
+CS @ **Simon Fraser University** · Vancouver
+
+Backend systems & quantitative finance.
+
+---
+
+**[Tiregan 2026 ↗](https://github.com/Bardmalek/TCICS)**<br>
+A vendor booking platform with interactive floor plans, verified payments, and organizer tools. [Live site ↗](https://tcicsbooking.com)
+
+<sub>TypeScript · Python · SQL</sub>
